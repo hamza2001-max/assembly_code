@@ -4,11 +4,11 @@
 
 mov ax, 1
 mov bx, 1
-jmp fib
 
 fib:
+mov cx, ax
 add ax, bx
-add bx, ax
+mov bx, cx
 jmp fib
 
 mov ax, 0x4c00
