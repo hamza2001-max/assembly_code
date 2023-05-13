@@ -2,9 +2,7 @@
 
 ;Using NASM, calculate the factorial of the
 ;following numbers:
-;6
-;7
-;8
+;6, 7, 8
 ;Use JMP, JZ and JNZ instruction
 
 mov ax, 6

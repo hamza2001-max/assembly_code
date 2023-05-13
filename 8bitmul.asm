@@ -1,6 +1,6 @@
 [org 0x100]
 
-;perform 8 bit multiplication.
+;apply 8 bit multiplication.
 
 jmp start
 multiplicand: dw 255

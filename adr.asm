@@ -1,6 +1,7 @@
 [org 0x100]
 
 jmp start
+
 ;Using NASM, initialize two registers one using
 ;direct and one using indirect address. After
 ;multiplication if the result is equal to 20 divide
