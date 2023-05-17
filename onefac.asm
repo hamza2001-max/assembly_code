@@ -8,10 +8,10 @@ mov ax, 5
 mov cx, 4
 
 onefac:
+dec cx
 mul cx
 cmp cx, 1
-je exit
-loop onefac
+jne onefac
 
 exit:
 mov ax, 0x4c00
